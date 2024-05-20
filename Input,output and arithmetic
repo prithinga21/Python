@@ -1,0 +1,44 @@
+Number Mirror
+a = int(input())
+print(a)
+
+Chef and Instant Noodles
+x, y = map(int,input().split())
+print(x * y)
+
+CodeChef Learn Problem Solving
+N=int(input())
+print(2*N)
+
+coin collector machine
+n=int(input())
+b=n//20
+print("no.of 20 rs coin ",b)
+c=n-(b*20)
+d=c//10
+print("no.of 10 rs coin",d)
+e=c-(d*10)
+f=e//5
+print("no of 5 rs coin",f)
+g=e-(f*5)
+h=g//2
+print("no of 2 rs coin",h)
+i=g-(h*2)
+j=i//1
+print("no of 1 rs coin",j)
+
+filling waterbottle
+n=int(input())
+b=n//10
+print("no of 10 litre water bottle",b)
+c=n-(b*10)
+d=c//5
+print("no of litre water bottle",d)
+e=c-(d*5)
+f=e//5
+print("no of 1 litre water bottle",f)
+
+parking charges X, Y, H = map(int, input().split())
+A=H-1
+B=A*Y
+print(B+X)
